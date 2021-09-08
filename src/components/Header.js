@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 
-export default function Header(props) {
+export default function Header() {
   return (
-    <section className="header">
+    <header className="header">
       <div className="header-content">
-        <h2 className="header-logo">Join the Frontier</h2>
+        <h2 className="header-logo">See the Frontier</h2>
       </div>
-    </section>
+    </header>
   );
 }

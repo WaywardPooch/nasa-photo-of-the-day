@@ -84,11 +84,11 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
   border: 0;
   font-size: 100%;
   font: inherit;
+  margin: 0;
+  padding: 0;
   vertical-align: baseline;
 }
 article,
@@ -127,39 +127,77 @@ table {
   border-spacing: 0;
 }
 
-/* ========== UNIVERSAL ========== */
-
-* {
-  border: 2px solid red;
-}
-
 /* ========== GENERAL ========== */
 
 html {
-  font-size: 62.5%;
   font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+body {
+  background-color: #ddd;
+  height: 2000px;
+  line-height: 1.4;
 }
 h2 {
   font-size: 3rem;
   font-weight: 300;
-}
-.App {
-  text-align: center;
 }
 
 /* ========== HEADER ========== */
 
 .header {
   background-color: #2f2f2f;
+  position: sticky;
+  top: 0;
+  width: 100%;
 }
 .header-content {
-  padding: 4rem;
   color: white;
-  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
   letter-spacing: 0.3rem;
+  padding: 2.5rem;
+  text-transform: uppercase;
 }
 .header-logo {
   border: 2px solid white;
-  display: inline-block;
   padding: 0.8rem;
+  text-align: center;
+}
+
+/* ========== GALLERY ========== */
+
+/* Container */
+.gallery {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+}
+
+/* Card */
+.card {
+  background-color: #fcfcfc;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+.card-content {
+  padding: 4rem;
+}
+.card-photo {
+  height: 500px;
+  max-width: 100%;
+  object-fit: cover;
+}
+.card-label h2 {
+  font-size: 3.5rem;
+  letter-spacing: 0.1rem;
+  margin: 2rem 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+.card-label p {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: justify;
 }
