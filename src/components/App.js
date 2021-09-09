@@ -2,9 +2,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
-// Stylesheet Import
-import "../App.css";
-
 // Global Constants Import
 import { BASE_URL, API_KEY } from "../constants";
 
@@ -35,11 +32,11 @@ function App() {
 
   // Main Site Rendering Order
   return (
-    <div className="App">
+    <>
       <Header />
       <Card apod={apod} />
       <Footer />
-    </div>
+    </>
   );
 }
 

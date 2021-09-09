@@ -126,3 +126,18 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* General Styles */
+html {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+body {
+  background-color: #ddd;
+  line-height: 1.4;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: 300;
+}

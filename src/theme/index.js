@@ -5,5 +5,7 @@ export default {
   tertiaryColor: "cadetblue",
   black: "#2f2f2f",
   white: "#eee",
-  breakpointMobile: "(max-width: 550px)",
+  brightWhite: "#fcfcfc",
+  fadedWhite: "#999",
+  breakpointMobile: "max-width: 550px",
 };

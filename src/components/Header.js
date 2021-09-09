@@ -2,23 +2,23 @@ import React from "react";
 import styled from "styled-components";
 
 const StyledHeader = styled.div`
-  background-color: #2f2f2f;
+  background-color: ${(props) => props.theme.black};
   position: sticky;
   top: 0;
   width: 100%;
 
   div {
-    color: white;
+    color: ${(props) => props.theme.white};
     display: flex;
     justify-content: center;
-    letter-spacing: 0.3rem;
     padding: 2.5rem;
-    text-transform: uppercase;
   }
   h2 {
-    border: 2px solid white;
+    border: 2px solid ${(props) => props.theme.white};
+    letter-spacing: 0.3rem;
     padding: 0.8rem;
     text-align: center;
+    text-transform: uppercase;
   }
 `;
 
