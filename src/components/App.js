@@ -3,15 +3,15 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 
 // Stylesheet Import
-import "./App.css";
+import "../App.css";
 
 // Global Constants Import
-import { BASE_URL, API_KEY } from "./constants";
+import { BASE_URL, API_KEY } from "../constants";
 
 // Website Components
-import Header from "./components/Header";
-import Card from "./components/Card";
-import Footer from "./components/Footer";
+import Header from "./Header";
+import Card from "./Card";
+import Footer from "./Footer";
 
 // Main Application
 function App() {
