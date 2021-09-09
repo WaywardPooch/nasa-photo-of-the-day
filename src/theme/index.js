@@ -1,4 +1,4 @@
-// theme object here
+// Site Branding
 export default {
   primaryColor: "coral",
   secondaryColor: "cornflowerblue",

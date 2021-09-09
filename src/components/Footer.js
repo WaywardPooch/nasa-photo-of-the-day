@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
+// Create Footer Styles
 const StyledFooter = styled.footer`
   background-color: ${(props) => props.theme.black};
   width: 100%;

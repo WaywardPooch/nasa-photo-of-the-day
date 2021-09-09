@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
+// Create Card Styles
 const StyledCard = styled.div`
   background-color: ${(props) => props.theme.brightWhite};
   margin: 2rem auto;

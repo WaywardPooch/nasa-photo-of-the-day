@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
+// Create Header Styles
 const StyledHeader = styled.div`
   background-color: ${(props) => props.theme.black};
   position: sticky;

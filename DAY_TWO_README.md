@@ -20,7 +20,7 @@ This homework is a continuation of the work you have done previously.
 
 ### Task 2a: MVP Requirements
 
-- [ ] Style your app using styled-components.
+- [x] Style your app using styled-components.
 
 ### Task 3: Stretch Problems
 
@@ -34,7 +34,7 @@ Do not attempt stretch problems until MVP has been reached and a final commit ha
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge Branch into `main` (student's Repository).
+- [x] Submit a Pull-Request to merge Branch into `main` (student's Repository).
 
 ---
 
